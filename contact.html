@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="this is an ecomerce project">
+    <title>A K Biplob Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+ <!-- navbar starts here -->
+    <nav>
+        <ul class="nav-upper flex-space-around">
+             <li class="nav-list"><a href="index.html" class="nav-link">Home</a></li>
+             <li class="nav-list"><a href="register.html" class="nav-link">Register</a></li>
+             <li class="nav-list"><a href="login.html" class="nav-link">login</a></li>
+             <li class="nav-list"><a href="logout.html" class="nav-link">logout</a></li>
+             <li class="nav-list"><a href="contact.html" class="nav-link">Contact</a></li>
+             <li class="nav-list"><a href="profile.html" class="nav-link"><img class="profile-icon" src="images/ak.png" alt="profile icon"></a></li>
+        </ul>
+  <!-- -------------------------------------------------       -->
+        <ul class="nav-lower flex-space-around">
+            <li class="nav-list"><a href="index.html" class="nav-brand nav-link">A K Biplob Express</a></li>
+            <li class="nav-list"><a href="cart.html" class="nav-link">
+            <span><i class="fa-solid fa-cart-shopping"></i></span>
+            Cart 2 Products $124.40 
+            </a></li>
+        </ul>
+    </nav>
+ <!-- navbar starts here -->
+ <main>
+    <section class="contact-section">
+        <h2 class="section-title text-center">Contact Us</h2>
+        <div class="contact-container flex-center">
+            <form action="" class="form card">
+                <div class="form-control flex-center">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" autocomplete="name">
+                </div>
+                <div class="form-control flex-center">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" autocomplete="name">
+                </div>
+                <div class="form-control flex-center">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="about"></textarea>
+                </div>
+                <div class="form-control flex-center form-btn-field">
+                    <button type="submit" class="btn contact-btn">Submit</button>
+                 </div>
+            </form>
+          <div class="contact-address flex-space-around">
+            <address>
+                <h4>Address:</h4>
+                <p>12624 Ali Ar Rummani Road,</p>
+                <p>Al Wizarat, Al Riyad, Saudi Arabia</p>
+                <br>
+                <span>Call:</span>
+                <a href="tell:+123456789">+123456789</a>
+            </address>
+            <iframe class="caontact-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14501.556051922027!2d46.702969352423935!3d24.6791506487661!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f047ed9134073%3A0x5dbb6551a7979f31!2sAl%20Wizarat%2C%20Riyadh!5e0!3m2!1sen!2ssa!4v1683801905439!5m2!1sen!2ssa" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+
+        </div>
+    </section>
+ </main>
+ <!-- footer starts here -->
+ <footer class="flex-space-around">
+    <div class="flex-space-around">
+        <label for="subscribe">Subscribe to newsletter:</label>
+        <input type="email" name="subscribe" id="subscribe" class="footer-input" placeholder="your email address">
+         <button class="btn btn-subscribe">Subscribe</button>
+    </div>
+    
+    <div>
+        <p>&copy;Copyright 2023. A K Biplob Express. All Rights Reserved</p>
+    </div>
+</footer>
+ <!-- footer starts here -->
+</body>
+</html>
