@@ -1,2 +1,2 @@
 # ecomerce-web
-https://akbiplobsa.github.io/ecomerce-web/
+https://akbiplobs.github.io/ecomerce-web/
